@@ -73,7 +73,8 @@ select * from tb_pizza where sabor like "%c%";
 
 select * from tb_pizza;
 
- select  tb_pizza.sabor ,  tb_categoria.tipo from tb_pizza inner join tb_categoria on tb_categoria.id = tb_pizza.categoria_id;
+ select  tb_pizza.sabor ,  tb_categoria.tipo from tb_pizza inner join tb_categoria on tb_categoria.id = tb_pizza.categoria_id where tb_categoria.tipo = "Doce";
+ select  tb_pizza.sabor ,  tb_categoria.tipo from tb_pizza inner join tb_categoria on tb_categoria.id = tb_pizza.categoria_id where tb_categoria.tipo = "Salgada";
  select  * from tb_pizza inner join tb_categoria on tb_categoria.id = tb_pizza.categoria_id;
 
 /*delete from tb_pizza where id = 8;*/

@@ -56,7 +56,7 @@ insert into tb_personagem ( nome_personagem,  poder_ataque,  poder_defesa,  habi
  values ("Lindy", 2000, 1500, "Voar", 4);
  
   insert into tb_personagem ( nome_personagem,  poder_ataque,  poder_defesa,  habilidade_especial,  classe_id)
- values ("Angelical", 1400, 2000, "Voar", 3);
+ values ("Angelical", 1400, 2000, "Agil", 3);
  
  /*ALTER TABLE tb_personagem  CHANGE personagem_id classe_id bigint;*/
  
